@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Good Games Info</title>
+  <style>
+    .background {
+        background: url(./img/fon-soti-103.jpg) 100% 100%;
+        background-size: cover;
+    }
+    .headerSt {
+        border: 2px solid burlywood;
+        Border-radius: 10px;
+        height: 9%;
+        width: 100%;
+    }
+    .sideBarSt{
+        float: left;
+        border: 2px solid red;
+        border-radius: 10px;
+        height: 80%;
+        width: 15%;
+    }
+    .mainSt{
+        border: 2px solid navy;
+        border-radius: 10px;
+        height: 80%;
+        width: 84%;
+        float: right;
+    }
+    .footerSt {
+        border: 2px solid red;
+        border-radius: 10px;
+        height: 120px;
+        width: 100%;
+        float: inline-end;
+        background-color:hsla(236, 78%, 32%, 0.425);
+    }
+    .newsSt {
+        background-color: grey;
+        padding: 2px;
+        margin-top: 5px;
+        border: 2px;
+        border-radius: 15px;
+        padding: 2px;
+    }
+    .buttonFooter {
+        border-radius: 8px;
+        background: rgb(100, 145, 230);
+        color: midnightblue;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 13px;
+    }
+    .buttonHeader {
+        border-radius: 8px;
+        background: rgba(105, 20, 5, 0.712);
+        color: rgba(10, 209, 100, 0.986);
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 12px;
+    }
+    .adText {
+        border: 2px;
+        border-radius: 8px;
+        padding: 2px;
+    }
+  </style>
+</head>
+
+<body class="background">
+    <header class="headerSt">
+        <div style="display: flex; flex-flow: row; justify-content: space-between; align-items: center">
+            <div style="margin: 10px;">
+                <img src="./img/07d426718d2b235b71-Banshee.jpg" alt="Logo-BansheeTDD" style="height: 100px; width: 130px; margin-left: 10px;">
+            </div>
+            <span style="color: chocolate; font-size: 40px;">Good Games Info</span>
+            <div>
+                <nav style="display: flex;">
+                    <form action="#Yo_soy">
+                        <button class="buttonHeader">О нас</button>
+                    </form>
+                    <form action="https://ya.ru/">
+                        <button class="buttonHeader">Выход</button>
+                    </form>
+                </nav>
+                <img src="./img/p-banshi-feya-oboi-krasivo-61.jpg" alt="Грустная Banshee" style="height: 80px; float: right;">
+            </div>
+        </div>
+    </header>
+    <div class="sideBarSt">
+        <aside style="margin: 5px;">
+            <div>
+                <span style="color: rgb(0, 0, 0); font-size: 21px;"><b>Выбор категорий</b></span>
+                <select>
+                    <option value="noDate">Не выбрано</option>
+                    <option value="Новинки">Новинки</option>
+                    <option value="Игры">Игры</option>
+                    <option value="Железо">Железо</option>
+                    <option value="Магаз">Магазин</option>
+                    <option value="News_archive">Архив новостей</option>
+                </select>
+                <Ul style="background-color: aliceblue; border: 2px; border-radius: 10px;">
+                    <li><a href="#newsNow">Новости сегодня</a></li>
+                    <li><a href="#newsWeek">Новости последней недели</a></li>
+                    <li><a href="#Advertising">Реклама</a></li>
+                    <li><a href="#Other_game_portals">Другие игровые порталы</a></li>
+                </Ul>
+            </div>
+        </aside>
+        <div style="margin: 10px;">
+            <img src="./img/smeshnoi-yezhik-smeshnie.jpg" alt="Реклама Ежика" style="height: 150px; margin-left: 15px; margin-top: 15px;">
+            <p class="adText" style="margin: 0; background-color: darkgoldenrod;"><em>Ежи умнее чем ты думаешь!</em><br>
+                <a href="https://www.youtube.com/watch?v=YHkFseHhyRI" target="_blank">Узнай</a> 
+                <em>неизвестне факты.</em>
+            </p>
+        </div>
+        <div style="margin: 10px;">
+            <img src="./img/i.webp" alt="Мульт не для всех" style="height: 150px; margin-left: 30px; margin-top: 15px;">
+            <p class="adText" style="margin: 0; background-color: gray;"><em>Мультфильм про ёжика.</em><br>
+            <a href="https://youtu.be/ZoP678l5HuE?t=91" target="_blank">Смотреть</a> 
+                <em>без смс и регистрации.</em>
+            </p>
+        </div>
+        <div style="margin: 10px;">
+            <img src="./img/700-nw.jpg" alt="Заказы" style="height: 120px; margin-left: 20px; margin-top: 15px;">
+            <p class="adText" style="margin: 0; background-color: aliceblue;"><em>Здесь могла быть ваша реклама.</em><br>
+                <a href="#Advertising">Как сделать</a>.
+            </p>
+        </div>
+    </div>
+    <main class="mainSt">
+        <span><b style="font-size: 1.5em; margin: 20px; background-color: chartreuse; border: 2px; border-radius: 5px;"><em>Новости</em></b></span>
+        <section id="newsNow" class="newsSt">
+            <h2>Cult of the Lamb скоро получит огромное бесплатное дополнение</h2>
+            <div style="margin: 15px;">
+                <img src="./img/img_news/nova-filepond-5CSYPG.jpg" alt="Cult of the Lamb" style="height: 100px;">
+                <p>Разработчики <em>Massive Monster</em> объявили, что одна из самых популярных инди-игр последних лет <em>Cult of the Lamb</em> вскоре получит дополнение с тревожным названием <em>Sins of the Flesh</em>.</p>
+                <p>Как сообщается в официальном анонсе, запланировано огромное количество новых возможностей, которые появятся в игре на всех платформах в виде бесплатного обновления. Подробности разработчики пока не раскрывают, но речь явно о новых элементах геймплея и расширении сюжетного пласта. Релиз запланирован на «самое начало следующего года».</p>
+                <p>Разработчики добавили, что в создание дополнения вложено много сил, и в ближайшее время будет объявлена более подробная информация.</p>
+                <p>Стоит отметить, что игра не исчезнет из продажи в начале 2024 года, как можно было предположить из заявления разработчиков. Напомним, в сентябре студия объявила, что рассматривает возможность снятия игры с распространения, если <em>Unity</em> – разработчики движка, на котором построена игра, - внедрят новый прайс-лист. Позже уточнили, что это сделали для того, чтобы выразить несогласие с действиями компании.</p>
+                <span>
+                    <b>25 ноября 2023 в 10:37</b> Автор: Дмитрий Кривов | 
+                    Источник: 
+                    <a href="https://ixbt.games/news/2023/11/25/cult-of-the-lamb-skoro-polucit-ogromnoe-besplatnoe-dopolnenie.html" target="_blank">IXBT</a>
+                    <a href="https://twitter.com/cultofthelamb/status/1727765518390857749">Twitter</a>
+                </span>
+            </div>
+        </section>
+        <section class="newsSt">
+            <h2>Китайцы массово скупают <em>GeForce RTX 4090</em> и делают из них «монстров Франкенштейна». Они перепаивают чипы на другую плату</h2>
+            <div style="margin: 15px;">
+                <img src="./img/img_news/Chinese-Factories-Dismantling-Thousands-of-NVIDIA-GeForce-RTX-4090.jpg" alt="GeForce RTX 4090" style="height: 100px;">
+                <p>Запрет поставок GeForce RTX 4090 в Китай вызвал не только удорожание таких видеокарт в самом Китае и даже в США и Европе. Оказалось, что игровые 3D-карты активно используются китайскими компаниями для создания на их основе ускорителей для ИИ.</p>
+                <p>Сообщается, что эти компании скупают RTX 4090, которые успели попасть в Китай до вступления запрета в силу, а затем создают специализированные объекты, где RTX 4090 используются не по прямому назначению.</p>
+                <p>Производительность этого адаптера очень высока, его, собственно, из-за этого и запретили. И уже есть ПО, которое позволяет задействовать это игровое решение для задач, связанных с ИИ.</p>
+                <p>Ещё более интересно то, что физически карты тоже превращаются из игровых в специализированные. Фактически карта разбирается полностью. И речь не только о снятии системы охлаждения. Хотя это одна из причин. Дело в том, что почти все RTX 4090 имеют очень толстые охладители и занимают из-за этого три-четыре слота расширения. Китайские компании на своих фабриках демонтируют родные СО и заменяют их на «турбины».</p>
+                <p>Однако самое интересное вовсе не это. Помимо прочего, от оригинальной карты отпаивают GPU и микросхемы памяти. А затем всё это припаивается на специально созданную для этого некую эталонную плату, и уже на неё устанавливается новая система охлаждения.</p>
+                <p>О каких объёмах идёт речь, неясно, но на соответствующих фото можно видеть очень много упаковок с новенькими RTX 4090.</p>
+                <span>
+                    <b>24 ноября 2023 в 16:20</b> Автор: MPAK | 
+                    Теги: Nvidia, GeForce RTX 4090 | Источник: 
+                    <a href="https://www.ixbt.com/news/2023/11/24/geforce-rtx-4090.html" target="_blank">IXBT</a>
+                    <a href="https://wccftech.com/chinese-factories-dismantling-thousands-of-nvidia-geforce-rtx-4090-gaming-gpus-turning-ai-solutions/?utm_source=ixbtcom">WCCF Tech</a>, 
+                    <a href="https://tieba.baidu.com/p/8737396349?pn=1&utm_source=ixbtcom">Baidu</a>
+                </span>
+            </div>
+        </section>
+        <section id="newsWeek" class="newsSt">
+            <h2>Корпоративный позор на <em>BlizzCon 2023</em></h2>
+            <div style="margin: 15px;">
+                <img src="./img/img_news/nova-filepond-nQpBIo.jpg" alt="BlizzCon 2023" style="height: 100px;">
+                <p>С 3 по 5 ноября прошёл <em>BlizzCon 2023</em>. Он стал первым за последние несколько лет мероприятием компании <em>Blizzard</em>, проведённым в оффлайн-формате. Что показали нам разработчики, какие проблемы были у этого шоу и как <em>Blizzard</em> попытались их замаскировать — читайте в нашем материале.</p>
+                <p style="font-size: 1.5em;">Что показали</p>
+                <p>В Overwatch 2 <a href="https://www.youtube.com/watch?v=AQfRHycUsmQ">добавят нового героя</a> — его зовут Мауга и внешне он очень похож на персонажа мультфильма Моана. Мауга будет танком, вооружённым сразу двумя пулемётами — один будет поджигать, другой подрывать.</p>
+                <p><em>Diablo IV</em> получит дополнение под названием <a href="https://www.youtube.com/watch?v=-9Ly08bk-_4">«Сосуд Ненависти»</a>. Его выход назначен на конец 2024-го года. Предположительно в этом DLC мы отправимся в Кураст — локацию из <em>Diablo II</em>, где встретимся с Мефисто.</p>
+                <p><em>Hearthstone</em> также не обойдётся без нового дополнения — <a href="https://www.youtube.com/watch?v=A5___jYm6vs">«Битва в Бесплодных землях»</a>. Его выход состоится уже на днях — 14 ноября.</p>
+                <p>Вышедшая 2 ноября мобильная игра Warcraft Rumble, получила <a href="https://www.youtube.com/watch?v=z6imoVOuvF0">стартовый трейлер</a>.</p>
+                <p style="font-size: 1.5em;">Косплей старой Blizzard</p>
+                <p>Много вопросов вызвала и подача мероприятия. В ходе большей его части нельзя было не заметить отстранённость представителей компании от аудитории — было ощущение, что Blizzard проводит BlizzCon для кого угодно, но не людей, играющих в их игры. Они сухо перечисляли содержимое патчей разных игр, некоторые из которых вышли до самого BlizzCon, или общались друг с другом, не особо обращая внимание на аудиторию и читали с телесуфлёра — в этом шоу не было никакого шоу.</p>
+                <p>Ситуацию попытался исправить Крис Метцен. В конце прошлого года он вернулся в Blizzard после 6 лет отсутствия, и по его выступлению видно, что он знает и любит своё дело — только он смог по-настоящему зажечь людей в зале.</p>
+                <img src="./img/img_news/HU8PVSHwV7JG8D72kJjRQInzFrwy1ltNfNP0ZjXa.png" alt="Chris Metzen" style="height: 100px;">
+                <p>Источник изображения: <a href="https://www.aroged.com/2023/11/06/blizzcon-2023-what-was-great-what-was-lame-our-buffed-conclusion/">www.aroged.com</a></p>
+                <p>Тем не менее этого оказалось недостаточно. На фоне всего остального, выступление Метцена выглядит как косплей старой Blizzard — это ширма, за которой видны все проблемы компании.</p>
+                <p>Даже 
+                    <a href="https://www.youtube.com/watch?v=IDtjzLzs7V8">презентация 
+                        <em>Squadron 42</em>
+                    </a> — сюжетной кампании Star Citizen — выглядит намного более впечатляюще. За 26 минут, в которые уместился презентационный ролик, разработчики из <em>Cloud Imperium Games</em>, показали ничуть не меньше, чем <em>Blizzard</em> за три дня <em>BlizzCon</em>.
+                </p>
+                <p style="font-size: 1.5em;">Итог</p>
+                <p><em>BlizzCon 2023</em> не содержал в себе никаких важных анонсов, а того что было  — недостаточно для нескольких дней презентации. Более того, ко всем анонсам есть вопросы, вызывающие сомнение в качестве предоставляемого контента.</p>
+                <p>Вместо привычного веселья, мы наблюдали за чисто корпоративным выступлением, и Фил Спенсер, появившийся в самом его начале, отлично это символизирует — теперь <em>Blizzard</em> официально является частью огромной корпорации. Как раньше уже точно не будет — даже Крис Метцен не спасёт.</p>
+                <span>
+                    <b>12 ноября 2023 в 17:35</b> Автор: Эдуард Эпштейн | 
+                    Источник: <a href="https://ixbt.games/results/2023/11/12/blizzcon-2023-korporativnyi-kosplei-staroi-blizzard.html" target="_blank">IXBT</a> | 
+                    Источник обложки: <a href="https://www.blizzcon.com/en-us/news/24009618"><em>blizzcon.com</em>
+                    </a>
+                </span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footerSt">
+        <div style="display: flex; flex-flow: row; justify-content: space-between; align-items: center">
+            <div id="Other_game_portals" style="margin-left: 20px;">
+                <span><b style="font-size: 20px;">Другие игровые порталы</b></span>
+                <ul style="margin: 0;">
+                    <li>
+                        <form action="https://www.ixbt.com/" target="_blank">
+                            <button class="buttonFooter">IXBT</button>
+                        </form>
+                    </li>
+                    <li>
+                        <form action="https://www.ign.com/" target="_blank">
+                            <button class="buttonFooter">IGN</button>
+                        </form>
+                    </li>
+                    <li>
+                        <form action="http://www.lki.ru/" target="_blank">
+                            <button class="buttonFooter">ЛКИ</button>
+                        </form>
+                    </li>
+                    <li>
+                        <form action="https://www.igromania.ru/" target="_blank">
+                            <button class="buttonFooter">Игромания</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            <div id="Yo_soy">
+                <span>
+                    <strong style="font-size: 20px;">©2023 «GoodGamesInfo».</strong><br>
+                    Github: <a href="https://github.com/BansheeTDD" target="_blank" style="color: grey;">BansheeTDD</a><br>
+                    Vk: <a href="https://vk.com/banshee55" target="_blank" style="color: grey;">Banshee55</a>
+                </span>
+            </div>
+            <div id="Advertising" style="font-size: 1.2em; border: 2px; border-radius: 8px; padding: 4px; background-color: rgb(231, 27, 27); margin: 5px; height: 70px;">
+                <span><strong>Store</strong></span><br>
+                <a href="https://store.steampowered.com/" target="_blank">steam</a><br>
+                <a href="https://store.epicgames.com/ru/" target="_blank">epicgames</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
