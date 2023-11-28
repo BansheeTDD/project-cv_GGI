@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.background {
+    background: url(./img/fon-soti-103.jpg) 100% 100%;
+    background-size: cover;
+}
+.headerSt {
+    border: 2px solid burlywood;
+    Border-radius: 10px;
+    height: 9%;
+    width: 100%;
+}
+.sideBarSt{
+    float: left;
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 80%;
+    width: 15%;
+}
+.mainSt{
+    border: 2px solid navy;
+    border-radius: 10px;
+    height: 80%;
+    width: 84%;
+    float: right;
+}
+.footerSt {
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 120px;
+    width: 100%;
+    float: inline-end;
+    background-color:hsla(236, 78%, 32%, 0.425);
+}
+.newsSt {
+    background-color: grey;
+    padding: 2px;
+    margin-top: 5px;
+    border: 2px;
+    border-radius: 15px;
+    padding: 2px;
+}
+.buttonFooter {
+    border-radius: 8px;
+    background: rgb(100, 145, 230);
+    color: midnightblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+}
+.buttonHeader {
+    border-radius: 8px;
+    background: rgba(105, 20, 5, 0.712);
+    color: rgba(10, 209, 100, 0.986);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+}
+.adText {
+    border: 3px;
+    border-radius: 8px;
+    padding: 2px;
+}
